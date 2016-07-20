@@ -82,14 +82,6 @@ DATABASES = {
     }
 }
 
-# Auth backends
-# https://docs.djangoproject.com/en/dev/ref/settings/#authentication-backends
-
-AUTHENTICATION_BACKENDS = [
-    'django_auth_ldap.backend.LDAPBackend',
-    'django.contrib.auth.backends.ModelBackend',
-]
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
